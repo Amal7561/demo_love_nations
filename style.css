@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header .nav-1{
+    width: 100%;
+    height: 50px;
+    background: black;
+    color: white;
+    line-height: 50px;
+    padding-left: 15px;
+}
+
+header .nav-2{
+    width: 100%;
+    height: 50px;
+    background: #f7f7f7;
+    border-bottom: 1px solid gray;
+    color: black;
+    padding-left: 15px;
+    line-height: 50px;
+}
+
+.cover-section{
+    width: 100%;
+    height: 85vh;
+    background: #f7f7f7;
+    position: relative;
+    overflow: hidden;
+    position: relative;
+}
+
+.cover-section .left-pic{
+    position: absolute;
+    bottom: -25%;
+    left: -14%;
+    width: 65%;
+}
+
+.cover-section .left-pic img{
+    width: 100%;
+}
+
+.cover-section .right-pic{
+    position: absolute;
+    top: 0;
+    right: -35%;
+    width: 60%;
+}
+
+.cover-section .right-pic img{
+    width: 100%;
+}
+
+.video-section .row-1{
+    width: 100%;
+    height: 50vh;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-section .row-1 .left{
+    width: 55%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+}
+
+.video-section .row-1 .left .vid{
+    width: 550px;
+    height: 300px;
+}
+
+.video-section .row-1 .left .vid img{
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.video-section .row-1 .right{
+    width: 45%;
+    height: 250px;
+    display: flex;
+    align-items: center;
+}
+
+.video-section .row-1 .right .section{
+    text-align:left;
+    width: 350px;
+}
+
+.video-section .row-2{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 35vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.video-section .row-2 .vid1{
+    width: 250px;
+    height: 180px;
+    margin: 0 0 0 10px;
+}
+
+.video-section .row-2 .vid1 img{
+    width: 100%;
+    height: 180px;
+    border-radius: 10px;
+}
+
+p{
+    font-size: 16px;
+    line-height: 25px;
+}
